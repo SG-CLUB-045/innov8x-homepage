@@ -1,0 +1,504 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url('/static/events/Dsa/images/dsa_bg.jpg');
+    height: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+/* page1 */
+.rishi{
+    /* background: url('MAF28SvIc8A.webp'); */
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    
+}
+
+.bars ul{
+    width: 100vw;
+    height: 12vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    
+}
+   
+.bars ul li{
+    list-style: none;
+    color: white;
+} 
+
+ .bars a{
+    text-decoration: none;
+    list-style: none;
+    
+    color: white;
+} 
+.bars h4:hover{
+    transform: scale(1.5);
+    /* overflow: auto; */
+}
+.boxers{
+    width: 89vw;
+    height: 72  vh;
+    /* background-color: red; */
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.videos{
+    width: 35%;
+    height: 70vh;
+    /* background-color: blue; */
+}
+.vids{
+    width: 98%;
+    height: 70vh;
+    
+}
+.writing{
+    width: 63%;
+    height: 70vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+.rishititle{
+    padding-top: 2vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 19%;
+    /* background-color: pink; */
+    display: flex;
+    color: #fff;
+    /* justify-content: space-around; */
+    align-items: center;
+    font-size: 4vw;
+}
+.contenti{
+    width: 95%;
+    height: 78%;
+    text-align: left;
+    color:white  ;
+    /* backgroun    d-color: aqua; */
+    
+    font-size: 2vw;
+
+}
+.but{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: blue   ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but button{
+    height: 8vh;
+    position: relative;
+    width: 18vw;
+    /* top: 5vh; */
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer; 
+    border: 1px solid #3498db; 
+    border-radius: 10vh;
+    background-color: rgb(163, 9, 35); 
+    
+    font-size: 1.6em; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+}
+.but button:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+    background-color: purple;
+    /* overflow: auto; */
+    transition: 0.5s;
+}
+
+@media(max-width:650px) {
+    .rishi{
+        width: 100vw;
+        /* height: 200vw; */
+    }
+    .bars ul{
+        width: 100vw;
+        height: 8vh;
+        justify-content: space-around;
+        font-size: 3vw;
+        
+    }
+    .boxers{
+        flex-direction: column;
+        /* background-color: red;    */
+        height: 65vh;     
+        color: white;
+    }
+    .videos{
+        width: 100%;
+        height:30vh;
+        /* background-color: blue; */
+    }
+    .vids{
+        width: 98%;
+        height: 70vh;
+        position: relative;
+        top: -20vh;
+        
+    }
+    .writing{
+        width:100%;
+        height: 40%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+
+    }
+    .tushtitle{
+        width: 100%;
+        height: 10vh;
+        /* background-color: pink; */
+        
+        justify-content: space-around;
+        
+        font-size: 4vh;
+    }
+    .contenti{
+        width: 95%;
+        height: 78%;
+        font-size:3vw;
+    
+    }
+    .but button{
+        height: 8vh;
+        font-size: 1.2em; 
+        width: 60vw;
+        
+    }
+       
+    
+}
+/* page2   */
+
+
+
+.rishi1{
+    /* background: url('MAF28SvIc8A.webp'); */
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.natitle{
+    width: 100%;
+    height: 15%;
+    color: white;
+    position: relative;
+    top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.themes{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    top: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    flex-wrap: wrap;
+}
+
+
+.emme{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 20vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin: 2vw 5vw;
+    
+    background-color: #3498db;
+    background-size: contain;
+}
+.emme img{
+    cursor: pointer;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+    height:fit-content;
+    width: 10vw;
+    border-radius: 3vw;
+}
+.emme img:hover{
+    transform: scale(1.3);
+    border: 1px solid black;
+    
+    transition: 0.5s;
+}
+.emme h3{
+    font-weight: 900;
+    color: black;
+    font-size: 18px;
+}
+
+@media(max-width:650px){
+    .rishi1{
+        overflow: scroll;
+        display: flex;
+        flex-wrap:wrap;
+        width: 100vw;
+        justify-content: center;
+       
+
+    }
+    .rishi1 .themes{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin: 1vh;
+        flex-direction: row;
+    }
+    .rishi1 .emme{
+        width: 30vw;
+        height: 30vw;
+        flex-direction: column;
+        
+    }
+    .rishi1 .themes img{
+        height:fit-content;
+        width: 25vw;
+    }
+    .natitle{
+        font-size: 8vh;
+    }
+}
+
+
+
+
+
+
+
+
+/* page3 */
+
+
+
+.rishi2{
+    /* background: url('MAF28SvIc8A.webp'); */
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.rishi2 h1{
+    margin-top: 10vh;
+    color: white;
+    font-size: 4.2rem;
+}
+.rishi2 h2{
+    color: white;
+}
+.prixes{
+    position: relative;
+    top: 2vh;
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    /* background-color: red; */
+}
+
+.section{
+    width: 17vw;
+    height: 55vh;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border-radius: 3vw;
+    position: relative;
+}
+
+ .section img{
+    height: 60vh;
+    position: absolute;
+    top: -28vh;
+
+
+} 
+
+@media (max-width:650px) {
+    .prixes{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin: 1vh;
+        flex-direction: column;
+    }
+    .prixes .section{
+        height: 20vh;
+        width: 30vw;
+    }
+    .section img{
+        top: -15vh;
+        width: 15vw;
+        height: 30vh;
+    }
+}
+ /* page4 */
+
+
+
+.rishi3{
+    /* background: url('MAF28SvIc8A.webp'); */
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: max(1400px,100vw);
+}
+   
+    
+.lol{
+    position: relative;
+    left: -5vw;
+}
+
+.second h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 870;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.third h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 870;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 3vw;
+}
+.third p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 3vh;
+}
+.theme ul h3{
+    text-align: center;
+}
+.theme2 ul li img{
+    width: 10vw;
+    height: 30vh;
+    background-color: #fff;
+}
+.text-faq{
+    font-size: 2rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+}
+
+
+.accordian{
+    width: 100%;
+    max-width: 70vw;
+    align-items: center;
+    margin-left: 13.5vw;
+    margin-bottom: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 400;
+
+}
+.accordian li{
+    list-style: none;
+    width: 120%;
+    align-items: center;
+}
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    font-size: 1rem;
+    font-weight: 500;
+    background: #fff;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    /* content: '+'; */
+    font-size: 1.5rem;
+    /* position: absolute; */
+    right: 17vw;
+    transition: transform 0.5s;
+}
+.accordian .content{
+    position: relative;
+    background: #fff;
+    /* margin: 0; */
+    font-size: 1rem;
+    text-align: left;
+    max-height: 0;
+    overflow: hidden;
+    /* font-weight: 400; */
+    transition: max-height 0.5s,padding 0.5s;
+    margin-bottom: 0.5em;
+    
+}
+.accordian input[type="radio"]{
+    display: none;
+}
+.accordian input[type="radio"]:checked + label + .content{
+    max-height: fit-content;
+    padding: 1.5vw 2vh;
+}
+.accordian input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+} 

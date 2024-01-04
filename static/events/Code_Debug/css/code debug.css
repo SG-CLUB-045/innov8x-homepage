@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.cdmaster{
+    background-image:url('/static/events/Code_Debug/images/MAF28SvIc8A.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.contentcd{
+    display: flex;
+}
+p{
+    color: wheat;
+    font-size: larger;
+}
+.head{
+    font-size: 4rem;
+}
+.buttoncd{
+    text-align: center;
+}
+.cdbutton{ 
+    color: #3d2424;
+    background-color: rgb(199, 30, 205);
+    padding:1rem;
+    color:white;
+    font-weight: 900;
+    position: relative;
+    top:1rem;
+}
+.buttoncd:hover{ 
+    transform: scale(1.05);
+}
+
+
+.sponsorscd{
+    color: #A0CD60;
+    font-size: 3rem;
+    text-align:center;
+} 
+.cdabout{
+    color: aqua;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li:hover{
+    transform: scale(1.05);
+    color: tan;
+}
+.text1cd{
+    color:aqua;
+}
+.cdheading{
+    font-size: 4rem;
+    color: #A0CD60;
+}
+
+li{
+    padding:.7rem;
+    background-color: rgb(1,35,64);
+    width: 100%;
+    font-size: 1.5rem;
+    color: #f4f3f3;
+}
+.cdpage1{
+    margin: 2rem;
+}
+.img{
+    margin: 2rem;   
+}
+
+.themecd{
+       text-align: center;
+       color: aliceblue;
+       font-size: 3rem;
+}
+.text2cd{
+    color:#A0CD60;
+}
+.themecard{
+    display: flex;
+    justify-content: center;
+}
+.cdimg{
+    margin:  2rem 2rem 0rem 2rem;
+    border-radius: 10%;
+} 
+.cdthemetext{
+   text-align:center;
+}
+.prizescd{
+color: #A0CD60;
+font-size: 3rem;
+text-align:center;
+}
+.worthcd{
+    text-align:center;
+}
+.cardcontain{
+    display: flex;
+    justify-content:center;
+}
+.sponpair{
+    display:flex;
+    justify-content: center;
+}
+
+.cdquetext{
+    text-align:center;
+    color: #A0CD60;
+    font-size: 3rem;
+}
+.quecd{
+    color: aqua;
+    text-align: center;
+    font-size: 3rem;
+
+}
+.last{
+    color: #f4f3f3;
+    text-align: center;
+    padding: 2rem;
+}

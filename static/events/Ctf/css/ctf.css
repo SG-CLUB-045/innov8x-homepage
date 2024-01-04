@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.cftmaster{
+    background-color: #38184C;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contentcft{
+    display: flex;
+}
+.cftbutton{
+    color: #3d2424;
+    background-color: rgb(199, 30, 205);
+    padding:1rem;
+    color:white;
+    font-weight: 900;
+    position: relative;
+    top:1rem;
+    border: 1px solid black;
+    border-radius: 10vh;
+}
+p{
+    color: wheat;
+    font-size: larger;
+    padding-bottom: 1rem;
+}
+.themecard{
+    padding: 2rem;
+    padding-top: 0;
+}
+.theme{
+    padding: 3rem;
+    padding-bottom: 0;
+}
+.prizescft1{
+    padding: 3rem;
+    padding-top: 0rem;
+}
+.head{
+    font-size: 4rem;
+}
+.buttoncft{
+    text-align: center;
+}
+.cftpage3{
+    padding: 2rem;
+}
+
+.buttoncft:hover{ 
+    transform: scale(1.05);
+}
+
+
+.sponsorscft{
+    color: #A0CD60;
+    font-size: 3rem;
+    text-align:center;
+} 
+.ctfabout{
+    color: aqua;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li:hover{
+    transform: scale(1.05);
+    color: tan;
+}
+.text1cft{
+    color:aqua;
+}
+.cftheading{
+    font-size: 4rem;
+    color: #A0CD60;
+}
+
+li{
+    padding:.7rem;
+    background-color: rgb(1,35,64);
+    width: 100%;
+    font-size: 1.5rem;
+    color: #f4f3f3;
+}
+.cftpage1{
+    margin: 2rem;
+}
+.img{
+    margin: 2rem;   
+}
+
+.themecft{
+       text-align: center;
+       color: aliceblue;
+       font-size: 3rem;
+}
+.text2cft{
+    color:#A0CD60;
+}
+.themecard{
+    display: flex;
+    justify-content: center;
+}
+.cftimg{
+    margin:  2rem 2rem 0rem 2rem;
+    border-radius: 10%;
+} 
+.cftthemetext{
+   text-align:center;
+}
+.prizescft{
+color: #A0CD60;
+font-size: 3rem;
+text-align:center;
+}
+.worthcft{
+    text-align:center;
+}
+.cardcontain{
+    display: flex;
+    justify-content:center;
+}
+.sponpair{
+    display:flex;
+    justify-content: center;
+}
+
+.cftquetext{
+    text-align:center;
+    color: #A0CD60;
+    font-size: 3rem;
+}
+.quecft{
+    color: aqua;
+    text-align: center;
+    font-size: 3rem;
+
+}
+.last{
+    color: #f4f0f0;
+    text-align: center;
+    padding: 2rem;
+}

@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Harry P;
+    src: url(/static/homepage/fonts/HarryP-MVZ6w.ttf);
+}
+.blind_code {
+    background-image: url('/static/events/Blind_Code/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    width:100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top{
+    background-color:black;
+    text-align: center;
+    padding:0% 0% 2% 0%;
+    font-family: Harry P;
+}
+.logo {
+    height:5rem;
+    width:auto;
+    display:content;
+}
+.navigation a {
+    padding: 0rem 3rem 0rem 3rem;
+    margin: 0rem 1.8rem 0rem 1.8rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color:white;
+}
+.navigation a:hover{
+    color:aqua;
+}
+
+#pic {
+    height: 14rem;
+    width:auto;
+    padding:2% 4% 2% 4%;
+}
+
+.section2 {
+    display: flex;
+    padding: 6% 6% 6% 6%;
+}
+
+#blind {
+    color: aqua;
+}
+
+#code {
+    color: white;
+}
+h1{
+    font-size:3rem;
+    line-height:2%;
+}
+
+h2 {
+    color: white;
+    font-size:1.8rem;
+    line-clamp:1rem;
+}
+
+#info1 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#info {
+    padding: 2rem;
+}
+
+.btn {
+    text-align: center;
+    padding:1% 6% 5% 6%;
+}
+#register {
+    background-color:rgb(55, 96, 229);
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+#s3 {
+    text-align:center;
+    margin: 15% auto 5% auto;
+}
+#themepic {
+    height:10rem;
+    width:auto;
+}
+.themeimg {
+    height: 10rem;
+    width: 15rem;
+    background-color: white;
+    display: inline-block;
+    margin:3% 3% 3% 3%;
+    text-align:center;
+    color:whitesmoke;
+    font-size:1.5rem;
+}
+#s4 {
+    text-align:center;
+    margin: 15% auto 5% auto;
+}
+#trophy{
+    height:12rem;
+    width:auto;
+    margin:-2.5rem 4.5rem auto 3.5rem;
+}
+#worth {
+    text-align:center;
+    margin-top:-2rem;
+}
+.prize {
+    height: 15rem;
+    width: 15rem;
+    background-color: white;
+    display: inline-block;
+    margin:7% 7% 7% 7%;
+}
+#section5{
+    text-align:center;
+    margin: 15% auto 5% auto;
+}
+
+.spon{
+    height: 15rem;
+    width: 15rem;
+    background-color: white;
+    display: inline-block;
+    margin:2% 5% 2% 5%;
+    text-align:center;
+    color:whitesmoke;
+    font-size:1.5rem;
+}
+#section6{
+    color:white;
+    font-size:2rem;
+    margin: 15% auto 5% 1%;
+    line-height: 3rem;
+    justify-content: center;
+    padding-bottom: 50%;
+}

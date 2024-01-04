@@ -1,0 +1,183 @@
+@font-face {
+    font-family: harry;
+    src: url("/static/homepage/fonts/CrimesOfGrindelwald-r92K.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+body{
+    background-color: black; /*Temp*/
+}
+#animate{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 3;
+    /* overflow: hidden; */
+}
+
+#page{
+    width: 100%;
+    height: 100vh; 
+    background-color: black;
+    background-image: url("/static/animation/res/gryffindor.gif");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;   
+    background-size: 60vw 100vh;
+    box-shadow: 28vw 0 100px black inset, -28vw 0 100px black inset;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+.container{
+    width: max(80%,800px);
+    height: max(30vw,360px);
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    left: 50%;
+    position: absolute;
+    justify-content: space-around;
+    overflow: hidden;
+    /* border: 3px solid ; */
+}
+
+.cards{
+    height: 300px;
+    width: 20%;
+    /* background-color: black; */
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    /* opacity: .95; */
+    /* transition: 1; */
+}
+
+.cards a >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cards:nth-child(1){
+    transform: scale(1.2);
+}
+/* .cards:nth-child(2){
+    background-image: url("res/hufflepuff.gif");
+    background-size: cover;
+}
+.cards:nth-child(3){
+    background-image: url("res/ravenclaw.gif");
+    background-size: cover;
+}
+.cards:nth-child(4){
+    background-image: url("res/slytherin.gif");
+    background-size: cover;
+} */
+
+.btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    top: 80%;
+    position: absolute;
+    gap:3vh;
+    
+}
+.btn>div{
+    width: 10vh;
+    aspect-ratio: 1/1;
+}
+
+.btn>.forward{
+    background-image: url("/static/animation/img/next.png");
+    background-size: cover;
+}
+.btn>.backward{
+    background-image: url("/static/animation/img/prev.png");
+    background-size: cover;
+}
+
+/* .content{
+    height: 30vw;
+    width: 30%;
+    position: relative;
+    left: 5%;
+    background-color: aquamarine;
+} */
+
+
+.txt-area{
+    position: absolute;
+    width: max(41vw,295px);
+    height: max(11.5vw,82px);
+    top: 40vh;
+    left: 5%;
+    z-index: 1;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+
+.txt-area h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-weight: 500;
+    font-size: max(9vw,64px);
+    letter-spacing: 20;
+    color: white;
+    /* font-family: harry; */
+}
+
+.txt-area h1:nth-child(1){
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+
+@media screen and (max-width:650px) {
+    /* #page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+
+    .container{
+        left: 25vw;
+    }
+    
+    .txt-area{
+        position: absolute;
+        left: 50%;
+        /* top: 67vh; */
+        top: 10vh;
+        transform: translateX(-50%);
+    }
+
+    #page{
+        box-shadow: initial;
+        background-size: 100vw 100vh;
+    }
+}
+
+@media screen and (max-width:1050px) and (max-height:1400px){
+    #page{
+        box-shadow: initial;
+        background-size: 100vw 100vh;
+    }
+}

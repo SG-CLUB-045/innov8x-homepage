@@ -1,0 +1,424 @@
+
+
+
+@font-face {
+    font-family: Harry P;
+    src: url(/static/homepage/fonts/HarryP-MVZ6w.ttf);
+}
+
+* {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+video{
+
+   position: relative;
+   top: 55px;
+   height: 55vh;
+}
+
+
+
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+#pg1 {
+ 
+
+
+    background: url('/static/events/Robowar/images/cas.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 111vh;
+    
+}
+
+
+#sec1 {
+    height: 10vh;
+    background-color: rgb(97, 82, 82);
+}
+
+#nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav li {
+    font-family: Harry P;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 500;
+    color: white;
+    font-size: 21px;
+    transition: all ease-in 0.2s;
+}
+
+#nav li:hover{
+    scale: 1.05;
+    color: yellow;
+}
+
+#sec2 img {
+    height: 160px;
+    padding: 55px;
+}
+
+#sec2 {
+    display: flex;
+    height: 32vh;
+    /* background-color: yellow; */
+    padding: 132px;
+}
+
+span {
+    font-size: 53px;
+}
+
+#one {
+    font-size: 75px;
+    line-height: 11px;
+    color: aqua;
+}
+
+#two {
+    font-size: 75px;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 45px;
+
+}
+
+p {
+    color: white;
+    font-size: 22px;
+}
+
+.text {
+    padding: 35px;
+}
+
+#register {
+    text-align: center;
+}
+
+#register img{
+    height: 12px;
+}
+
+#sec3 {
+    text-align: center;
+
+}
+
+#register {
+    color: white;
+    font-size: 30px;
+    padding: 12px;
+    background-color: rgb(55, 96, 229);
+    border: none;
+    transition: all ease 0.5s;
+    border-radius: 2px;
+    position: relative;
+    top: 125px;
+}
+#register:hover{
+    transform: scale(1.1);
+
+}
+
+#text2 {
+    text-align: center;
+    /* color: white; */
+    padding: 76px;
+}
+
+#three {
+    font-size: 45px;
+    color: rgb(255, 187, 0);
+}
+
+#four {
+    font-size: 45px;
+    color: white;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 162px;
+    padding: 18px;
+   
+   
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 22vh;
+    width: 28vh;
+    /* border: 2px solid yellow; */
+    gap: 20px;
+    border-radius: 22px;
+    /* overflow: hidden; */
+    background-color: white;
+    /* background: url(./blind.png); */
+    /* object-fit: cover ; */
+    /* background-position: center; */
+    
+    transition: all ease 0.3s;
+
+
+}
+.box:hover{
+    transform: scale(1.06);
+
+}
+
+.box img {
+    width: 10vw;
+    height: 21vh;
+    object-fit: cover;
+    position: relative;
+    left: 18px;
+}
+
+
+#pg2 {
+
+    height: 150vh;
+    background: url(/static/events/Robowar/images/cas.png);
+    background-repeat: no-repeat;
+}
+
+.wrap {
+    gap: 163px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    padding: 12px;
+
+}
+
+h4 {
+    
+    position: absolute;
+   color: white;
+  
+
+
+}
+
+#sec5 {
+    padding: 32px;
+}
+
+.text3 {
+    text-align: center;
+    margin-top: 51px;
+}
+
+
+
+
+h3 {
+    font-size: 45px;
+    color: aqua;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 122px;
+    padding: 74px;
+}
+
+.box2 {
+    padding: 65px;
+    width: 20vh;
+    height: 33vh;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 25px;
+}
+.box2 img{
+    left: 25px;
+    top: -103px;
+    position: relative;
+    height: 121px;
+}
+
+#bad1{
+    top: -320px;
+    left: -18px;
+    height: 550px;
+
+}
+#bad2{
+    top: -282px;
+    left: -18px;
+    height: 609px;
+
+}
+#bad3{
+    top: -166px;
+    left: -5px;
+    height: 500px;
+
+}
+
+h5 {
+    color: aqua;
+    font-size: 35px;
+}
+
+#text4 {
+    text-align: center;
+}
+
+#pg3{
+    background: url(/static/events/Robowar/images/cas.png);
+    height: 115vh;
+}
+
+.container3{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 76vh;
+    width: 112vh;
+    /* border: 2px solid yellow; */
+}
+
+.box3{
+   
+    height: 22vh;
+    width: 35vh;
+    /* border: 2px solid yellow; */
+    gap: 22px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 22px;
+
+
+
+}
+
+#sec6{
+    padding-top: 80px;
+}
+
+.wrap3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pg4{
+    height: 100vh;
+    background: url(/static/events/Robowar/images/cas.png);
+}
+
+
+#text5{
+    padding: 25px;
+    text-align: center;
+}
+#five{
+    font-size: 30px;
+    color: aqua;
+}
+
+#six{
+    font-size: 30px;
+    color: white;
+}
+
+
+.lower
+{
+
+  text-align: center;
+  font-size: 5vh;
+  color: white;
+  padding: 12px;
+ 
+    
+}
+
+hr{
+    
+    width: 75vh;
+    margin: auto;
+
+}
+
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 164px;
+}
+
+#rect{
+    top: 118px;
+    left: 775px;
+    position: relative;
+    background-color: rgb(203, 203, 229);
+    height: 2vh;
+    width: 82px;
+   
+    
+}
+
+h4{
+    
+    text-align: center;
+    width: 185px;
+    height: 15px;
+    font-size: 23px;
+}
+.c{
+
+    height: 12px;
+}
+ 
+
+.fa-solid, .fas {
+    font-weight: 900;
+}
+
+
+
+.fa-add:before, .fa-plus:before {
+    content: "\2b";
+    color: aqua;
+}
+@media screen  and (max-width:600px) {
+
+    #pg1{
+        height: 288vh;
+        width: 1 22vw;
+    }
+    
+}
